@@ -29,7 +29,7 @@ public class guess_number {
                 System.out.printf("I love you! \n");
             }
             else if (count < 1 && count <= 6) {
-                System.out.printf("You did... There's no choice... \n");
+                System.out.printf("You did... There was no choice... \n");
             }
             else if (count > 6) {
                 System.out.printf("You killed %d people..... You suck. \n", count);
