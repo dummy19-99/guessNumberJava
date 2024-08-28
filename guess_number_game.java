@@ -51,9 +51,9 @@ public class guess_number_game {
         if (count == 1) {
             System.out.println("Amazing! You got it on the first try!");
         } else if (count <= 6) {
-            System.out.println("Good job! You guessed it in a few tries.");
+            System.out.println("You did... There was no choice...");
         } else {
-            System.out.printf("You guessed it after %d tries. Better luck next time!\n", count);
+            System.out.printf("You killed %d people..... You suck.\n", count);
         }
     }
 
